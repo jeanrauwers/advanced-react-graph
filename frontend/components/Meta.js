@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 
-
-
-export default class Header extends Component {
+export default class Meta extends Component {
     render(){
 
         return (
             <div>
-                <p>I'm the Header component</p>
+                <p>I'm the Meta component</p>
             </div>
         )
         
