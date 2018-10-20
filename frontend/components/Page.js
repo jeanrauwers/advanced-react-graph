@@ -1,6 +1,8 @@
-import React, { Componnet } from 'react';
+import styled from 'styled-components';
+import React from 'react';
 
-export default class Page extends Component {
+
+export default class Page extends React.Component {
     render(){
 
         return (
