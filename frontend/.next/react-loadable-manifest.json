@@ -1,5 +1,5 @@
 {
-  "C:\\Users\\jeanr\\Desktop\\dev-react-graph\\advanced-react-graph\\frontend\\noop": [
+  "./noop": [
     {
       "id": "./node_modules/next/dist/client/noop.js",
       "name": "./node_modules/next/dist/client/noop.js",

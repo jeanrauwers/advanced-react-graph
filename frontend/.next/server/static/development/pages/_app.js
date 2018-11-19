@@ -275,10 +275,18 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "Page__StyledPage",
+  componentId: "sc-4u7a64-0"
+})(["background:white;color:black;"]);
+var Inner = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
+  displayName: "Page__Inner",
+  componentId: "sc-4u7a64-1"
+})(["max-width:1000px;margin:0 auto;padding:2rem;"]);
 var MyButton = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.button.withConfig({
   displayName: "Page__MyButton",
-  componentId: "sc-4u7a64-0"
-})(["background:red;font-size:100px;"]);
+  componentId: "sc-4u7a64-2"
+})(["background:red;color:yellow;font-size:36px;span{font-size:50px;color:white;}"]);
 
 var Page =
 /*#__PURE__*/
@@ -297,28 +305,40 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 30
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 31
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 32
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MyButton, {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 33
         },
         __self: this
-      }, "Click Me"), this.props.Children);
+      }, this.props.Children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MyButton, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Click ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "me!")));
     }
   }]);
 

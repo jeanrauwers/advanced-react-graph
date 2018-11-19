@@ -39,10 +39,18 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+var StyledPage = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "Page__StyledPage",
+  componentId: "sc-4u7a64-0"
+})(["background:white;color:black;"]);
+var Inner = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
+  displayName: "Page__Inner",
+  componentId: "sc-4u7a64-1"
+})(["max-width:1000px;margin:0 auto;padding:2rem;"]);
 var MyButton = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].button.withConfig({
   displayName: "Page__MyButton",
-  componentId: "sc-4u7a64-0"
-})(["background:red;font-size:100px;"]);
+  componentId: "sc-4u7a64-2"
+})(["background:green;color:yellow;font-size:30px;"]);
 
 var Page =
 /*#__PURE__*/
@@ -61,28 +69,34 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Meta__WEBPACK_IMPORTED_MODULE_3__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 27
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 28
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Inner, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 29
         },
         __self: this
-      }, "Click Me"), this.props.Children);
+      }, this.props.Children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MyButton, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }));
     }
   }]);
 
@@ -94,4 +108,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=_app.js.30914e8f9cbf6217e950.hot-update.js.map
+//# sourceMappingURL=_app.js.f20934c25dc2811a0c93.hot-update.js.map
